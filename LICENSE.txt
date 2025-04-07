@@ -1,0 +1,26 @@
+
+Business Source License 1.1 (Modified for Coach Core AI)
+
+Copyright (C) 2025 Digital Blueprint & Big Dreams Network
+
+The source code within this repository is made available for personal use, educational purposes, and contribution under the following conditions:
+
+1. **Non-Commercial Use Only**  
+   You may view, use, and contribute to this project, but you may not use the codebase or significant portions of it in a commercial product or service without explicit, written permission from the copyright holders.
+
+2. **Attribution Required**  
+   Any public use of this code or derivative works must include visible credit to "Coach Core AI, powered by Digital Blueprint & Big Dreams Network."
+
+3. **Redistribution**  
+   Forks and modifications are allowed for personal or collaborative development, but rebranding, resale, or distribution under a different name or for commercial gain is strictly prohibited.
+
+4. **Commercial Licensing**  
+   If you wish to use this project in a commercial setting or integrate it into a paid product, contact the maintainers at:
+   📧 contact@coachcore.ai
+
+5. **No Warranty**  
+   This software is provided "as-is", without warranty of any kind.
+
+By contributing to this repository, you agree to abide by the terms outlined above.
+
+Coach smarter. Build responsibly.
