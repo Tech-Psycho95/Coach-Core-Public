@@ -1,0 +1,56 @@
+flowchart TD
+    title["Coach Core AI Monetization Strategy"]
+    
+    title --> model["Freemium Model"]
+    
+    model --> free["Free Tier"]
+    model --> premium["Premium Tier"]
+    model --> additional["Additional Revenue Streams"]
+    
+    %% Free Tier Details
+    free --> f1["Basic Playbook Tools"]
+    free --> f2["Limited Drill Library"]
+    free --> f3["Basic Performance Tracking"]
+    free --> f4["Core Strategic Tools"]
+    
+    %% Premium Tier Details
+    premium --> subscription["Subscription Options"]
+    premium --> inapp["In-App Purchases"]
+    
+    subscription --> monthly["Monthly Plan"]
+    subscription --> annual["Annual Plan\n(Discounted)"]
+    
+    inapp --> ip1["Premium Drill Packs"]
+    inapp --> ip2["Advanced Analytics"]
+    inapp --> ip3["Cloud Storage"]
+    inapp --> ip4["Team Collaboration Tools"]
+    
+    %% Additional Revenue
+    additional --> edu["Educational Offerings"]
+    additional --> partner["Strategic Partnerships"]
+    
+    edu --> e1["Coaching Webinars"]
+    edu --> e2["Strategy Workshops"]
+    edu --> e3["In-Depth Courses"]
+    
+    partner --> p1["Football Associations"]
+    partner --> p2["Equipment Brands"]
+    partner --> p3["Athletic Programs"]
+    
+    %% Pricing Strategy
+    title --> pricing["Pricing Strategy"]
+    
+    pricing --> price1["Competitive & Affordable"]
+    pricing --> price2["Value-Based"]
+    pricing --> price3["Tiered Access"]
+    pricing --> price4["Team Discounts"]
+
+    classDef title fill:#1e3a8a,color:white,stroke:#000,stroke-width:2px
+    classDef primary fill:#3b82f6,color:white,stroke:#1e3a8a,stroke-width:2px
+    classDef secondary fill:#60a5fa,color:white,stroke:#3b82f6,stroke-width:1px
+    classDef tertiary fill:#93c5fd,color:#1e3a8a,stroke:#60a5fa,stroke-width:1px
+    
+    class title title
+    class model,free,premium,additional,pricing primary
+    class f1,f2,f3,f4,subscription,inapp,edu,partner,price1,price2,price3,price4 secondary
+    class monthly,annual,ip1,ip2,ip3,ip4,e1,e2,e3,p1,p2,p3 tertiary

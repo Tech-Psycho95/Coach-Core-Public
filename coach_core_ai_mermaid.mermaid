@@ -1,0 +1,76 @@
+flowchart TD
+    title["Coach Core AI: Product Overview"]
+    title --> vision
+
+    subgraph vision["🎯 Product Vision"]
+        ai["AI-powered platform for youth & high school football coaches"]
+    end
+
+    vision --> features
+    vision --> monetization
+    vision --> timeline
+    vision --> market
+
+    subgraph features["⚙️ Key Features"]
+        playbook["AI-Powered Playbook Builder"]
+        drills["Customized Drill Library"]
+        analytics["Performance Analytics Dashboard"]
+        planning["Strategic Planning Suite"]
+    end
+
+    subgraph monetization["💰 Monetization Approach"]
+        freemium["Freemium Model"]
+        freemium --> free["Free Tier"]
+        freemium --> premium["Premium Tier"]
+        revenue["Additional Revenue"]
+        revenue --> education["Educational Offerings"]
+        revenue --> partnerships["Strategic Partnerships"]
+    end
+
+    subgraph timeline["🚀 Development Timeline"]
+        beta["Beta Testing: Summer 2025"]
+        launch["Market Launch: Late Summer 2025"]
+        updates["Continuous Updates"]
+        beta --> launch --> updates
+    end
+    
+    subgraph market["📈 Market Positioning"]
+        positioning["Accessible yet capable solution for football coaches"]
+    end
+
+    %% Feature Details
+    playbook --> p1["Customization"]
+    playbook --> p2["Templates"]
+    playbook --> p3["Drag-and-Drop Interface"]
+    
+    drills --> d1["Skill-Oriented Drills"]
+    drills --> d2["AI-Driven Recommendations"]
+    drills --> d3["Video Integration"]
+    
+    analytics --> a1["Individual Player Metrics"]
+    analytics --> a2["Team Performance Insights"] 
+    analytics --> a3["Development Tracking"]
+    
+    planning --> s1["Opponent Evaluation"]
+    planning --> s2["Game-Day Strategy"]
+    planning --> s3["Predictive Simulations"]
+
+    %% Free vs Premium
+    free --> f1["Limited playbook development"]
+    free --> f2["Restricted access to drills"]
+    free --> f3["Manual performance tracking"]
+    
+    premium --> p1["Full functionality"]
+    premium --> p2["Premium drill collections"]
+    premium --> p3["Advanced analytics"]
+    premium --> p4["Additional storage"]
+
+    classDef blue fill:#3b82f6,color:white,stroke:#1e3a8a,stroke-width:2px
+    classDef lightBlue fill:#60a5fa,color:white,stroke:#3b82f6,stroke-width:1px
+    classDef title fill:#1e3a8a,color:white,stroke:#000,stroke-width:2px
+    classDef subTitle fill:#2563eb,color:white,stroke:#1e3a8a,stroke-width:1px
+    
+    class title title
+    class vision,features,monetization,timeline,market subTitle
+    class ai,playbook,drills,analytics,planning,freemium,free,premium,revenue,beta,launch,updates,positioning blue
+    class p1,p2,p3,d1,d2,d3,a1,a2,a3,s1,s2,s3,f1,f2,f3,education,partnerships lightBlue

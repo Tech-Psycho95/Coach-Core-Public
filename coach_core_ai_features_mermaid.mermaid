@@ -1,0 +1,73 @@
+flowchart LR
+    app["Coach Core AI"]
+    
+    app --> playbook["AI-Powered\nPlaybook Builder"]
+    app --> drills["Customized\nDrill Library"]
+    app --> analytics["Performance\nAnalytics Dashboard"]
+    app --> planning["Strategic\nPlanning Suite"]
+    
+    %% Playbook Details
+    playbook --> p1["Customization"]
+    playbook --> p2["Templates"]
+    playbook --> p3["Drag-and-Drop Interface"]
+    
+    p1 --> p1a["Team-specific strategies"]
+    p1 --> p1b["Skill-level adaptations"]
+    
+    p2 --> p2a["Pre-designed formations"]
+    p2 --> p2b["Strategic recommendations"]
+    
+    p3 --> p3a["Visual play creator"]
+    p3 --> p3b["Animation preview"]
+    
+    %% Drill Library Details
+    drills --> d1["Skill-Oriented Drills"]
+    drills --> d2["AI-Driven Recommendations"]
+    drills --> d3["Video Integration"]
+    
+    d1 --> d1a["Position-specific drills"]
+    d1 --> d1b["Progressive difficulty levels"]
+    
+    d2 --> d2a["Player assessment based"]
+    d2 --> d2b["Development objectives matching"]
+    
+    d3 --> d3a["Instructional content"]
+    d3 --> d3b["Coaching methodology videos"]
+    
+    %% Analytics Details
+    analytics --> a1["Individual Player Metrics"]
+    analytics --> a2["Team Performance Insights"]
+    analytics --> a3["Development Tracking"]
+    
+    a1 --> a1a["Speed & agility metrics"]
+    a1 --> a1b["Skills execution tracking"]
+    
+    a2 --> a2a["Collective strengths analysis"]
+    a2 --> a2b["Weakness identification"]
+    
+    a3 --> a3a["Progress visualization"]
+    a3 --> a3b["Comparative benchmarking"]
+    
+    %% Strategic Planning Details
+    planning --> s1["Opponent Evaluation"]
+    planning --> s2["Game-Day Strategy"]
+    planning --> s3["Predictive Simulations"]
+    
+    s1 --> s1a["Game footage analysis"]
+    s1 --> s1b["Statistical patterns"]
+    
+    s2 --> s2a["Real-time adjustments"]
+    s2 --> s2b["Situational recommendations"]
+    
+    s3 --> s3a["Outcome predictions"]
+    s3 --> s3b["Strategy effectiveness modeling"]
+
+    classDef root fill:#1e3a8a,color:white,stroke:#000,stroke-width:2px
+    classDef main fill:#3b82f6,color:white,stroke:#1e3a8a,stroke-width:2px
+    classDef sub fill:#60a5fa,color:white,stroke:#3b82f6,stroke-width:1px
+    classDef detail fill:#93c5fd,color:#1e3a8a,stroke:#60a5fa,stroke-width:1px
+    
+    class app root
+    class playbook,drills,analytics,planning main
+    class p1,p2,p3,d1,d2,d3,a1,a2,a3,s1,s2,s3 sub
+    class p1a,p1b,p2a,p2b,p3a,p3b,d1a,d1b,d2a,d2b,d3a,d3b,a1a,a1b,a2a,a2b,a3a,a3b,s1a,s1b,s2a,s2b,s3a,s3b detail
