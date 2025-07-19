@@ -22,6 +22,11 @@ This public repo contains shared components, types, UI elements, and documentati
 
 ---
 
+## Contributors ✨
+[![Contributors](https://img.shields.io/github/contributors/DigitalBlueprint239/Coach-Core-Public?style=for-the-badge)](https://github.com/DigitalBlueprint239)
+
+---
+
 ## 🚀 Contributing
 
 Want to help build the future of coaching? We’re looking for collaborators who love:
